@@ -16,9 +16,26 @@ const Features = () => {
       start: "top 30%",
       end: "+=500",
       scrub: 1,
-      
     },
   });
+
+  tl.from(".feature-first",{
+    x:20,
+    duration:0.8,
+    start:"top 20%",
+    marker:true,
+  })
+
+  tl.from(".feature-title",{
+    x:-50,
+    duration:0.8,
+  })
+  tl.from(".feature-para",{
+    x:50,
+    delay:0.8,
+    duration:0.8,
+  })
+  
 
   tl.from(".feature-card", {
     y: 50,
@@ -75,16 +92,16 @@ const Features = () => {
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
 
-          <p className="text-sm font-semibold text-[#0F5132]">
+          <p className="feature-first text-sm font-semibold text-[#0F5132]">
             Everything you need
           </p>
 
-          <h2 className="mt-3 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          <h2 className="feature-title mt-3 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Run your café
-            <span className="text-[#0F5132]"> smarter.</span>
+            <span className="feature-span text-[#0F5132]"> smarter.</span>
           </h2>
 
-          <p className="mt-5 text-lg leading-8 text-gray-600">
+          <p className="feature-para mt-5 text-lg leading-8 text-gray-600">
             Brewly brings your café's daily operations together
             in one powerful and easy-to-use platform.
           </p>

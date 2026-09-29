@@ -46,10 +46,10 @@ const Navbar = () => {
                     <a href="/" className='text-[#0F5132] text-2xl font-bold'>Brewly</a>
                 </div>
                 <div className='hidden items-center gap-8 md:flex'>
-                    <Link to= "/" className='anim-nav text-sm font-medium hover:text-[#0F5132]'>Home</Link>
-                    <Link to= "/features" className='anim-nav text-sm font-medium hover:text-[#0F5132]'>Features</Link>
-                    <Link to= "/pricing" className='anim-nav text-sm font-medium hover:text-[#0F5132]'>Pricing</Link>
-                    <Link to= "/about" className='anim-nav text-sm font-medium hover:text-[#0F5132]'>About</Link>
+                    <Link to= "/" className='anim-nav text-sm font-medium hover:underline active:on hover:text-[#0F5132]'>Home</Link>
+                    <Link to= "/features" className='anim-nav text-sm font-medium hover:underline  hover:text-[#0F5132]'>Features</Link>
+                    <Link to= "/pricing" className='anim-nav text-sm font-medium hover:underline hover:text-[#0F5132]'>Pricing</Link>
+                    <Link to= "/about" className='anim-nav text-sm font-medium hover:underline hover:text-[#0F5132]'>About</Link>
                     
                 </div>
                 <div className='hidden items-center gap-4 md:flex '>

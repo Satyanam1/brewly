@@ -37,7 +37,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/features"
-                  className="transition hover:text-[#0F5132]"
+                  className="transition hover:font-medium hover:text-[#0F5132]"
                 >
                   Features
                 </a>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/pricing"
-                  className="transition hover:text-[#0F5132]"
+                  className="transition hover:font-medium hover:text-[#0F5132]"
                 >
                   Pricing
                 </a>
@@ -55,7 +55,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/"
-                  className="transition hover:text-[#0F5132]"
+                  className="transition hover:font-medium hover:text-[#0F5132]"
                 >
                   How It Works
                 </a>
@@ -73,7 +73,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/about"
-                  className="transition hover:text-[#0F5132]"
+                  className="transition hover:font-medium hover:text-[#0F5132]"
                 >
                   About
                 </a>
@@ -82,7 +82,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/"
-                  className="transition hover:text-[#0F5132]"
+                  className="transition hover:font-medium hover:text-[#0F5132]"
                 >
                   Contact
                 </a>
@@ -91,7 +91,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/login"
-                  className="transition hover:text-[#0F5132]"
+                  className="transition hover:text-[#0F5132] hover:font-medium"
                 >
                   Login
                 </a>
@@ -108,15 +108,17 @@ const Footer = () => {
             <div className="mt-4 flex gap-4">
 
               <a
-                href="#"
-                className="text-sm text-gray-600 transition hover:text-[#0F5132]"
+                href="https://www.instagram.com/imsatyanamyadav/"
+                target="_blank"
+                className="text-sm text-gray-600 transition hover:text-[#0F5132] hover:font-medium"
               >
                 Instagram
               </a>
 
               <a
-                href="#"
-                className="text-sm text-gray-600 transition hover:text-[#0F5132]"
+                href="https://www.linkedin.com/in/satyanam-kumar-95b713273/"
+                target="_blank"
+                className="text-sm text-gray-600 transition hover:text-[#0F5132] hover:font-medium"
               >
                 LinkedIn
               </a>
@@ -134,11 +136,11 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-6">
-            <a href="#" className="transition hover:text-[#0F5132]">
+            <a href="#" className="transition hover:text-[#0F5132] hover:font-medium">
               Privacy
             </a>
 
-            <a href="#" className="transition hover:text-[#0F5132]">
+            <a href="#" className="transition hover:text-[#0F5132] hover:font-medium">
               Terms
             </a>
           </div>
