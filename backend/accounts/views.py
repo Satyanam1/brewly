@@ -19,4 +19,5 @@ class ProfileView(generics.RetrieveAPIView):
             "message":"Authentication successful",
             "user":request.user.email,
             "name": request.user.name,
+            "cafe_name":request.user.cafe.name,
         })
