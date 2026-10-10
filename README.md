@@ -1,4 +1,4 @@
-# ☕ Brewly
+# ❤️ Brewly
 
 ### Run Your Cafe, Smarter.
 
@@ -63,7 +63,7 @@ The goal of the project is to create a practical, scalable cafe management syste
 
 ---
 
-## 📁 Project Folde Structure
+## Project Folde Structure
 
 ```text
 brewly/
@@ -84,14 +84,15 @@ Currently in Development...
 - Django project setup
 - Django REST Dramework setup
 - Initial Django apps
+- Landing Page
+- Authentication
 
 ### In Progrss
-- Landing page
-- Authentication
 - Dashboard
 - Menu management
 - Order management
 - Inventory management
+- Staff management
 ## Developer
 Satyanam Kumar
 
