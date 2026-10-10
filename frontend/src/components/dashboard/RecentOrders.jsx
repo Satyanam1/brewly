@@ -97,7 +97,7 @@ return (
               </td>
 
               <td className="px-5 py-4 text-sm text-gray-600">
-                {order.items}
+                {order.items?.[0]?.menu_item_name || "No items"}
               </td>
 
               <td className="px-5 py-4 text-sm font-medium text-gray-900">
